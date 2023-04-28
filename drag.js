@@ -39,6 +39,6 @@ function getDragAfterElement(container, y) {
       } else {
         closest;
       }
-    }
+    },{offset : Number.NEGATIVE_INFINITY}
   )
 }
